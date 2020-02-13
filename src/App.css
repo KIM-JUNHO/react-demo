@@ -1,5 +1,24 @@
 .App {
   display: flex;
-  height: 100vh;
+  flex-direction: row;
+  height: 100%;
   background-color: rgb(211, 211, 211);
+}
+
+.SideContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  width: 240px;
+}
+
+.SideFooterUl {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.MainTobbar {
+  display: flex;
+  flex-direction: row;
 }

@@ -2,15 +2,14 @@ import React from 'react';
 import SideHeader from './SideHeader';
 import SideBody from './SideBody';
 import SideFooter from './SideFooter';
-import './Side.css';
 
 function Side() {
   return (
-    <header className="Side">
+    <div className="SideContainer">
       <SideHeader />
       <SideBody />
       <SideFooter />
-    </header>
+    </div>
   );
 }
 
