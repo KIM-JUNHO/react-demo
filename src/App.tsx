@@ -4,7 +4,7 @@ import Side from './components/Side/Side';
 import Main from './pages/Main';
 import './App.css';
 
-const App: React.FC = () => {
+function App() {
   return (
     <div className="App">
       <Side />
@@ -14,6 +14,6 @@ const App: React.FC = () => {
       </div>
     </div>
   );
-};
+}
 
 export default App;
