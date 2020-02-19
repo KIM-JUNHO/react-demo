@@ -8,7 +8,6 @@ USER gitpod
 # RUN sudo apt-get -q update && #     sudo apt-get install -yq bastet && #     sudo rm -rf /var/lib/apt/lists/*
 #
 # More information: https://www.gitpod.io/docs/config-docker/
-
 RUN sudo apt-get -q update && sudo apt-get install -yq telnet
 RUN sudo apt-get install -yq guacamole-tomcat
-RUN sudo rm -rf /var/lib/apt/lists/*
+RUN sudo rm -rf /var/lib/apt/lists/* 
